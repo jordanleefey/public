@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/public/kontakt/</loc>
+    <loc>https://jordanleefey.github.io/public/kontakt/</loc>
     <lastmod>2024-02-15T12:04:30+01:00</lastmod>
   </url><url>
-    <loc>/public/</loc>
+    <loc>https://jordanleefey.github.io/public/</loc>
     <lastmod>2024-02-14T16:50:48+01:00</lastmod>
   </url><url>
-    <loc>/public/categories/</loc>
+    <loc>https://jordanleefey.github.io/public/categories/</loc>
   </url><url>
-    <loc>/public/tags/</loc>
+    <loc>https://jordanleefey.github.io/public/tags/</loc>
   </url>
 </urlset>

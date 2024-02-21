@@ -12,7 +12,7 @@
 <meta name="description" content="Ergotherapie &amp;amp; Heilpraxis Monika Nauschütz, Prenzlau">
 
 
-<title>Ergotherapie-Uckermark</title>
+    <title>Ergotherapie-Uckermark</title>
 
 
 <link rel="home" href="">
@@ -20,7 +20,11 @@
 
 
 
-<link rel="stylesheet" href="https://jordanleefey.github.io/public/sass/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/sass/materialize.min.css">
 
 
 </head>
@@ -28,20 +32,130 @@
 
 <body>
 
+<nav class="nav-extended">
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo valign-wrapper" title="Startseite">
+            
+            
+                <img src="http://localhost:1313/images/logo.webp" alt="Start" width="300">
+            
+        </a>
 
-    <a href="/public/">
-        Start
+        <ul class="hide-on-small-and-down right">
+                <li>
+                    <a href="/">
+                        Start
+                    </a>
+                </li>
+                <li>
+                    <a href="/team/">
+                        Team
+                    </a>
+                </li>
+                <li>
+                    <a href="/kontakt/">
+                        Kontakt
+                    </a>
+                </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="fixed-action-btn hide-on-med-and-up">
+    <a class="btn-floating btn-large">
+        <i class="large material-icons">menu</i>
     </a>
-    <a href="/public/kontakt/">
-        Kontakt
-    </a>
+
+    <ul>
+            <li>
+                <a class="btn-floating" href="/" title="Start">
+                    <i class="<material-icons>">Start</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating" href="/team/" title="Team">
+                    <i class="<material-icons>">Team</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating" href="/kontakt/" title="Kontakt">
+                    <i class="<material-icons>">Kontakt</i>
+                </a>
+            </li>
+    </ul>
+</div>
+
 
 <main class="container flow-text">
+    <h1 class="center-align" style="font-family: baskerville, serif; font-style: italic;"
+    >Ergotherapie & Heilpraxis
+        <br>
+        Monika Nauschütz
+    </h1>
     
     
     
 
 </main>
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                    content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Seitennavigation</h5>
+                <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="/">
+                                Start
+                            </a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="/team/">
+                                Team
+                            </a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="/kontakt/">
+                                Kontakt
+                            </a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2024 <a class="grey-text text-lighten-4" href="https://ergotherapie-uckermark.de"
+                                     title="Startseite"
+        >Ergotherapie & Heilpraxis Monika Nauschütz</a>
+            <a class="grey-text text-lighten-4 right" href="#!">Impressum</a>
+        </div>
+    </div>
+</footer>
+
+
+
+    
+        <script src="/js/bin/materialize.js"></script>
+    
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function ()
+    {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+            direction: 'top',
+            hoverEnabled: false,
+        });
+    });
+</script>
 
 </body>
 
